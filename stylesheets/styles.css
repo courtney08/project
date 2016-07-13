@@ -215,10 +215,7 @@ td {
 /* Header */
 
 header {
-	background-image: url(images/9.jpg);
-	background-repeat:no-repeat;
-	background position:center;
-	color: #FDFDFB;
+	color: #f508e9;
   width:170px;
   float:left;
   position:fixed;
