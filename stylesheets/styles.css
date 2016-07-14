@@ -215,10 +215,10 @@ td {
 /* Header */
 
 header {
-	background-color:pink
+	background-color:
 	background-repeat:no repeat;
 	background-position:center;
-	color: #;
+	color: #f508e9;
   width:170px;
   float:left;
   position:fixed;
