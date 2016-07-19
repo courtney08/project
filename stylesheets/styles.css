@@ -30,7 +30,7 @@ body {
   font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 14px;
 	color: #232323;
-	background-color: #FBFAF7;
+	background-color: #ff66cc;
 	margin: 0;
 	line-height: 1.8em;
 	-webkit-font-smoothing: antialiased;
@@ -215,7 +215,7 @@ td {
 /* Header */
 
 header {
-background: url(../images/sm-8.jpg) no-repeat center 20px;	
+background: url(../images/sm-8.jpg) no-repeat center 40px;	
 backgorund-color:red;
  text-shadow:white;
  color:#ff0000;
