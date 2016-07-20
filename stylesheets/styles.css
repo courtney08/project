@@ -29,7 +29,7 @@ body {
   padding:10px 50px 0 0;
   font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 14px;
-	color: #232323;
+	color: #808080;
 	background-color:808080;
 	margin: 0;
 	line-height: 1.8em;
@@ -215,7 +215,7 @@ td {
 /* Header */
 
 header {
-background: url(../images/8.jpg) no-repeat center 170px;	
+background: url(../images/sm-8.jpg) no-repeat center 170px;	
 backgorund-color:red;
  text-shadow:white;
  color:#ff0000;
