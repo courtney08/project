@@ -30,7 +30,7 @@ body {
   font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 14px;
 	color: #232323;
-	background-image: url(..images/14.jpg);
+	background-color:808080;
 	margin: 0;
 	line-height: 1.8em;
 	-webkit-font-smoothing: antialiased;
@@ -215,7 +215,7 @@ td {
 /* Header */
 
 header {
-background: url(../images/14.jpg) no-repeat center 170px;	
+background: url(../images/8.jpg) no-repeat center 170px;	
 backgorund-color:red;
  text-shadow:white;
  color:#ff0000;
