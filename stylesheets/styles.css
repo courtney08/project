@@ -218,7 +218,7 @@ header {
 background: url(../images/sm-8.jpg) no-repeat center 40px;	
 background-color:#808080;
  text-shadow:white;
- color:#ffffff;
+ color:#ff0000;
  width:200px;
   float:left;
   position:fixed;
@@ -239,6 +239,7 @@ p.header {
 }
 
 h1.header {
+	color:#ff0000;
 	font-family: Arvo, sans-serif;
 	font-size: 30px;
 	font-weight: 300;
