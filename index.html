@@ -1,61 +1,60 @@
-<!doctype html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Project by courtney08</title>
+<head>
+   <title>Best Players</title>
+   <style>
+   body{
+      font-family:arial;
+      background-image:url(images/backgrounds/background.jpg);
+   }
+   h1{   
+      background-color:red;
+      color:white;
+   }
+   h2{
+     cursor:pointer;
+   }
+   .PlayerName{
+      color:#666;
+   }
+   #KingJames{
+      color:#ffcc00;
+      background-color:maroon;
+   }
+   </style>
+   <script src="javascript/jquery.js"></script> 
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/github-light.css">
-    <script src="javascripts/scale.fix.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1 class="header">Courtney Smith for President</h1>
-        <p class="header">Vote for Courtney for better rights</p>
-        <ul>
-          <li class="download"><a class="buttons" href="https://github.com/courtney08/project/zipball/master">Download ZIP</a></li>
-          <li class="download"><a class="buttons" href="https://github.com/courtney08/project/tarball/master">Download TAR</a></li>
-          <li><a class="buttons github" href="https://github.com/courtney08/project">View On GitHub</a></li>
-        </ul>
+   <script type='text/javascript'>
+      $(function(){
+          
+      });
+   </script>
+</head>
+<body>
+   <h1>Best Players</h1>
 
-        <p class="header">Why You Should Elect Courtney Smith For President</p>
+   <div>
+      <h2 class='PlayerName' style='background-color:blue; color:yellow;' onclick='$("#StephHidden").toggle();'>Stephen Curry</h2>
+      <div id='StephHidden' style='display:none;'>
+      <p>He's a three point specialist</p>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/xy0p42tfhsE" frameborder="0" allowfullscreen></iframe>
+   </div>
+      </div>
 
+   <div>
+      <h2 class='PlayerName' style='background-color:red; color:white;' onclick='$("#DurantHidden").toggle();'>Kevin Durant</h2>
+      <div id='DurantHidden' style='display:none;'>
+      <p>He won an MVP and now plays for Golden State</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jKN1MsM4Pj8" frameborder="0" allowfullscreen></iframe>
+      </div>
+   </div>
 
-      </header>
-      <section>
-        <h3>Vote...</h3>
-<img src="images/7.jpg" alt="Voting pins"/> <img src="images/11.jpg" alt=""/>
-<h3>Voting</h3>
-<p>Make sure you vote. Voting is very important. If you want change vote for who you think can change your life in a positive way. I think that we need to vote wisely for a better lifestyle.</p>
-<h3>Where the 2016 Presidential Candidates Stand on the Issues</h3>
-<iframe width="640" height="360" src="https://www.youtube.com/embed/T57HKiB0gsw" frameborder="0" allowfullscreen></iframe>
-<a id="designer templates" class="anchor" href="#designer-templates" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Description Of Video</h3>
-<p>It’s tough out there for a voter—candidates from both parties have a lot to say about countless topics. So we asked our readers what matters most to them and got the answers straight from the presidential hopefuls themselves.</p>
-<a id="creating-pages-manually" class="anchor" href="#creating-pages-manually" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Feminism</a>
-<img src="images/4.jpg" alt=""/>
-<p>I support feminism because women can do the same things as men. If we want the same equal pay as men we can do it. Thats why I'm here to get equal rights.So this is the year we will have equal rights for women. </p>
-<h3>
-<a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Gun Control</h3>
-<img src="images/1.jpg" alt=""/>
-<p>Gun control is a problem that has been affecting the United States. People die because of random people having access to guns.I want to protect people,but guns are not the answer. I get that people try to protect their family,but guns can kill people and we don't want to see an increase in death.If somebody wants to work with guns go to the army or become a police officer,but you got to know when to use it. </p>
-<h3>
-	<iframe width="640" height="360" src="https://www.youtube.com/embed/IBRfQC1C_1w" frameborder="0" allowfullscreen></iframe>
-	The class created a website declaring their candidacy for President 
-<a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Importance of Education</h3>
-<img src="images/9.jpg" alt=""/> 
-<p>Education is important and I'm here to prove it.In schools kids aren't taught the right way. I want kids to be able to go to college for free. We have so much poverty in the United States because college cost so much.Kids that want to have a career instead of working at a dead-end job at McDonalds you could work at your dream job. </p>
-      </section>
-      <footer>
-        <p><small>Hosted on <a href="https://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
-      </footer>
-    </div>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
-		
-  </body>
+   <div>
+      <h2 class='PlayerName' id='KingJames' onclick='$("#JamesHidden").toggle();'>King James</h2>
+      <div id='JamesHidden' style='display:none;'>
+      <p>He just won a championship</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ixqLUQxgI-c" frameborder="0" allowfullscreen></iframe>
+      </div>
+   </div>
+
+</body>
 </html>
